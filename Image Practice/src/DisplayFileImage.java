@@ -8,7 +8,7 @@ public class DisplayFileImage extends JPanel
 	public DisplayFileImage()
 		{
 		super();
-		image = Toolkit.getDefaultToolkit().getImage("nameOfYourImageFile.jpg");
+		image = Toolkit.getDefaultToolkit().getImage("McGuirePhoto.jpg");
 		//Place your image in the folder the corresponds to your package explorer title.
 		//It should be at the same level as your bin and src folders.
 		//Be sure to include the extension (e.g. .jpg, .gif, etc...).
@@ -16,7 +16,7 @@ public class DisplayFileImage extends JPanel
 	
 	public void paintComponent(Graphics g)
 		{
-		g.drawImage(image,50,10,200,200, this); 
+		g.drawImage(image,50,10,250,300, this); 
 		}
 	
 	public static void main(String arg[])
